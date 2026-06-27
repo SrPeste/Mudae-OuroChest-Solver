@@ -40,37 +40,8 @@ or simply download the ZIP and extract it.
 
 ---
 
-### 2. Create a virtual environment (recommended)
 
-Windows
-
-```bash
-python -m venv myenv
-```
-
-Activate it:
-
-Command Prompt
-
-```cmd
-myenv\Scripts\activate
-```
-
-PowerShell
-
-```powershell
-myenv\Scripts\Activate.ps1
-```
-
-If PowerShell blocks execution:
-
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
-
----
-
-### 3. Install dependencies
+### 1. Install dependencies
 
 This project only uses Python's standard library.
 
@@ -100,13 +71,13 @@ Restart the application after installing the font.
 Execute:
 
 ```bash
-python run_oc_solver.py
+oc_solver_visual.py.py
 ```
 
 or
 
 ```bash
-python -m oc_solver.run_oc_solver
+python -m oc_solver_visual
 ```
 
 depending on your project structure.
@@ -117,11 +88,12 @@ depending on your project structure.
 
 ## Manual Mode
 
-1. Start a new puzzle.
-2. Click a tile.
-3. Select the color revealed in-game.
-4. Repeat for every click.
-5. The solver automatically updates:
+1. Start the application.
+2. Start the Mudae $oc (ourochest puzzle)
+3. Click a tile.
+4. Select the color revealed in-game.
+5. Repeat for every click.
+6. The solver automatically updates:
    - Remaining possible boards
    - Remaining Red positions
    - Best recommended move
@@ -136,7 +108,7 @@ Click
 ▶ Bot Solver
 ```
 
-The bot will automatically:
+The bot will automatically (it's only an simulation, for really complete $oc in discord u need do it yourself):
 
 - choose the best move;
 - maximize the expected score;
@@ -159,16 +131,9 @@ The bot will automatically:
 
 ```
 project/
-│
-├── run_oc_solver.py
-│
 ├── oc_solver/
 │   ├── oc_solver_core.py
 │   ├── oc_solver_visual.py
-│   └── ...
-│
-├── font/
-│   └── YourFont.ttf
 │
 └── README.md
 ```
@@ -194,16 +159,6 @@ Recent optimizations include:
 ---
 
 # Troubleshooting
-
-## PowerShell blocks Activate.ps1
-
-Run:
-
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
-
----
 
 ## ModuleNotFoundError
 
