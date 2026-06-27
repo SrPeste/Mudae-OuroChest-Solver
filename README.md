@@ -26,7 +26,7 @@ The application allows players to solve puzzles manually with probability assist
 
 ---
 
-## How to Use
+## Quick Demo
 
 ![How to Use](assets/How_to_use.gif)
 
@@ -53,20 +53,22 @@ If you prefer, you can also review the source code and build the executable your
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/muda-remote-solver.git
-cd muda-remote-solver
+git clone https://github.com/SrPeste/Mudae-OC-Chest-Solver.git
+cd Mudae-OC-Chest-Solver
 ```
 
 or simply download the ZIP and extract it.
 
 ---
+## Download
 
+The latest executable can be downloaded from the **Releases** section of this repository.
+
+If you prefer, you can also clone the repository and run the project directly from the source code.
 
 ### 1. Install dependencies
 
-This project only uses Python's standard library.
-
-No external packages are required.
+This project only relies on Python's standard library, including Tkinter. No third-party packages are required.
 
 ---
 
@@ -92,7 +94,7 @@ Restart the application after installing the font.
 Execute:
 
 ```bash
-oc_solver_visual.py.py
+python oc_solver_visual.py
 ```
 
 or
@@ -129,7 +131,7 @@ Click
 ▶ Bot Solver
 ```
 
-The bot will automatically (it's only an simulation, for really complete $oc in discord u need do it yourself):
+The bot will automatically (The bot simulates the optimal solution. The puzzle must still be completed manually in Discord.):
 
 - choose the best move;
 - maximize the expected score;
@@ -192,7 +194,11 @@ Run the project from its root folder.
 Install the font manually and restart the application.
 
 ---
+## Built With
 
+- Python 3
+- Tkinter
+---
 # License
 
 This project is provided for educational and personal use.
