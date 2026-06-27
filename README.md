@@ -26,6 +26,28 @@ The application allows players to solve puzzles manually with probability assist
 
 ---
 
+## How to Use
+
+![How to Use](assets/How_to_use.gif)
+
+---
+
+## Windows SmartScreen Notice
+
+This application is **not digitally code signed**. As a result, Windows SmartScreen may display a warning the first time you run the executable.
+
+This **does not necessarily mean the application is malicious**. It simply means that the executable has not been signed with a trusted code-signing certificate.
+
+If you downloaded the application from the official GitHub repository and trust the source, you can continue by clicking:
+
+1. **More info**
+2. **Run anyway**
+
+If you prefer, you can also review the source code and build the executable yourself.
+
+![Windows SmartScreen](assets/How_to_run.gif)
+
+---
 ## Installation
 
 ### 1. Clone the repository
