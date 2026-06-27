@@ -1,4 +1,4 @@
-# 🎯 Muda Remote Solver
+# 🎯 Mudae Remote Solver
 
 An intelligent solver and assistant for the **Muda Remote** puzzle minigame.
 
